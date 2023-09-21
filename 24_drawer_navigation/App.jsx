@@ -9,6 +9,7 @@ import { useFonts, Montserrat_400Regular } from "@expo-google-fonts/montserrat";
 import * as SplashScreen from "expo-splash-screen";
 import { useCallback } from "react";
 import { DrawerNavigation, HomeStackNavigation } from "./routes";
+import DrawerNavigatorSnack from "./snacks/DrawerNavigatorSnack";
 /* -------------Snack Bellow ------------- */
 
 SplashScreen.preventAutoHideAsync();
@@ -31,6 +32,7 @@ export default function App() {
     <View onLayout={onLayoutRootView} style={{ flex: 1 }}>
       {/* <HomeStackNavigation /> */}
       <DrawerNavigation />
+      {/* <DrawerNavigatorSnack /> */}
       <StatusBar style="auto" />
     </View>
   );

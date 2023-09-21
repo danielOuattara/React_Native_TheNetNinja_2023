@@ -4,7 +4,8 @@ import { About } from "./../screens";
 
 const Stack = createNativeStackNavigator();
 
-export default function AboutStack() {
+export default function AboutStack(props) {
+  console.log("About props = ", props);
   return (
     <Stack.Navigator>
       <Stack.Screen

@@ -23,14 +23,14 @@ const Drawer = createDrawerNavigator();
 
 function MyDrawer() {
   return (
-    <Drawer.Navigator useLegacyImplementation>
+    <Drawer.Navigator>
       <Drawer.Screen name="Feed" component={Feed} />
       <Drawer.Screen name="Article" component={Article} />
     </Drawer.Navigator>
   );
 }
 
-export default function App() {
+export default function DrawerNavigatorSnack() {
   return (
     <NavigationContainer>
       <MyDrawer />

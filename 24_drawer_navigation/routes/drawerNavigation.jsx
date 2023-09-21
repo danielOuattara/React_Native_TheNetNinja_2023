@@ -1,5 +1,3 @@
-import { StyleSheet } from "react-native";
-import React from "react";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { NavigationContainer } from "@react-navigation/native";
 import { HomeStackNavigation, AboutStack } from "./index";
@@ -17,8 +15,8 @@ export default function DrawerNavigation() {
           headerStyle: { backgroundColor: "tomato" },
         }}
       >
-        <Drawer.Screen name="Home" component={HomeStackNavigation} />
-        <Drawer.Screen name="About" component={AboutStack} />
+        <Drawer.Screen name="Home Stack" component={HomeStackNavigation} />
+        <Drawer.Screen name="About Stack" component={AboutStack} />
         <Drawer.Screen name="Contact" component={Contact} />
       </Drawer.Navigator>
     </NavigationContainer>

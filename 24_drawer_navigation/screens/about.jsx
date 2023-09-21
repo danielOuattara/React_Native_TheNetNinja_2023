@@ -1,7 +1,8 @@
 import { Text, View } from "react-native";
 import { globalStyles } from "../styles/global";
 
-export default function About() {
+export default function About(props) {
+  console.log(props);
   return (
     <View style={globalStyles.container}>
       <Text>
