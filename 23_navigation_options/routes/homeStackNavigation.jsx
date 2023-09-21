@@ -17,12 +17,17 @@ export default function HomeStackNavigation() {
         <Stack.Screen
           name="Home"
           component={Home}
-          options={{ title: "Game Zone" }}
+          options={{
+            title: "Game Zone",
+          }}
         />
         <Stack.Screen
           name="ReviewDetails"
           component={ReviewDetails}
-          options={{ title: "Review Details" }}
+          options={{
+            title: "Review Details",
+            headerStyle: { backgroundColor: "#3abb65" },
+          }}
           initialParams={{ countryOfOrigin: "China" }}
         />
       </Stack.Navigator>
