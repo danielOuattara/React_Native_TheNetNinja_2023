@@ -3,6 +3,7 @@ import { globalStyles } from "../styles/global";
 import { useState } from "react";
 
 export default function Home(props) {
+  console.log(props);
   const [reviews, setReviews] = useState([
     { title: "Zelda", rating: 5, body: "lorem ipsum Zelda", key: "1" },
     { title: "Gotta", rating: 4, body: "lorem ipsum Gotta", key: "2" },
