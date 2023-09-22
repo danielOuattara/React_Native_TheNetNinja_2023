@@ -1,0 +1,17 @@
+{
+  "action": {
+    "resetForm": "[Function anonymous]",
+    "setErrors": "[Function anonymous]",
+    "setFieldError": "[Function anonymous]",
+    "setFieldTouched": "[Function anonymous]",
+    "setFieldValue": "[Function anonymous]",
+    "setFormikState": "[Function anonymous]",
+    "setStatus": "[Function anonymous]",
+    "setSubmitting": "[Function anonymous]",
+    "setTouched": "[Function anonymous]",
+    "setValues": "[Function anonymous]",
+    "submitForm": "[Function anonymous]",
+    "validateField": "[Function anonymous]",
+    "validateForm": "[Function anonymous]"
+  }
+}
